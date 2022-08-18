@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #eee;
 }
 .hover:hover{
 
@@ -22,4 +23,18 @@ border: 1px solid whitesmoke;
 }
 .dropdown:hover .db{
 display: block;
+}
+.carousel-control-next, .carousel-control-prev {
+    bottom: 50%;
+}
+#over-img-div{
+    float: left;
+    left:3%;
+    top:60%;
+    z-index: 10000;
+    position: absolute;
+}
+.img-card{
+height: 130px;
+width: 140px;
 }
