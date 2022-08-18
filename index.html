@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <a class="navbar-brand ms-3 p-1 hover"><img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg" alt="AmazonLogo" height="60px" width="90px" class="mt-1" ><span class="fs-6">.in</span></a>
     <div class=" nav-item">
-       <a href="http://" class="d-flex text-light hover text-decoration-none">
+       <a href="http://" class="d-flex text-light hover text-decoration-none ">
         <em class="fa-solid fa-location-dot mt-2"></em>
           <div class="d-block ms-2">
             <span class="h3 d-block fs-10 fw-bold">Hello</span>
@@ -51,28 +51,91 @@
                     </ul>
                 </div>
         
-                <input type="text" class="form-control rounded-0">
-                <button class=" bg-danger rounded-end p-2 click" type="submit" name="submit" style="width:60px;"><i class="fa fa-search light" aria-hidden="true"></i></button>
+                <input type="text" class="form-control rounded-0" style="width: 650px ;">
+                <button class=" rounded-end p-2 click" type="submit" name="submit" style="width:60px;background-color: var(--bs-warning);"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
     </div>
-    <div class=" nav-item dropdown ms-2 mt-1">
-       <button class="btn btn-dark dropdown-toggle hover" type="button" id="triggerId2" data-bs-toggle="dropdown"
-       aria-expanded="false">
-            <a href="http://" class="d-flex text-light hover text-decoration-none">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_India.svg/383px-Flag_India.svg.png" alt="India" height="15px" width="20px">
+        <div class="ms-2 d-flex flex-column justify-content-evenly align-items-center hover">
+            <span class="fs-10 text-white">English</span>
+            <div class=" nav-item dropdown ms-2 mt-1">
+                <button class="btn btn-dark dropdown-toggle border-0" type="button" id="triggerId2" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                        <a href="http://" class="text-decoration-none">
+                            
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_India.svg/383px-Flag_India.svg.png" alt="India" height="15px" width="20px">
+                            
+                        </a> 
+                    </button>
+                    <ul class="dropdown-menu db" aria-labelledby="triggerId2">
+                        <li><label for="UK" class="dropdown-item"><input type="radio"  name="Country" id="UK"> UK</label> </li>
+                        <li><label for="France" class="dropdown-item"><input type="radio"  name="Country" id="France"> France </label></li>
+                        <li><label for="Brazil" class="dropdown-item"><input type="radio"  name="Country" id="Brazil"> Brazil </label></li>
+                        <li><label for="Japan" class="dropdown-item"><input type="radio"  name="Country" id="Japan"> Japan </label></li>
+                        <li><label for="South Korea" class="dropdown-item"><input type="radio"  name="Country" id="South Korea"> South Korea</label></li>
+                        <li><label for="Philippines" class="dropdown-item"><input type="radio"  name="Country" id="Philipines"> Philippines </label></li>
+                        <li><label for="Indonesia" class="dropdown-item"><input type="radio"  name="Country" id="Indonesia"> Indonesia </label></li>
+                    </ul>                
+            </div>
+        </div>
+        <div class="ms-2 nav-item">
+            
+            <div class=" nav-item dropdown ms-2 mt-1 d-flex align-items-center hover">
+                <button class="btn btn-dark dropdown-toggle border-0" type="button" id="triggerId3" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 
-            </a> 
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="triggerId2">
-            <li><label for="UK" class="dropdown-item"><input type="radio"  name="Country" id="UK"> UK</label> </li>
-            <li><label for="France" class="dropdown-item"><input type="radio"  name="Country" id="France"> France </label></li>
-            <li><label for="Brazil" class="dropdown-item"><input type="radio"  name="Country" id="Brazil"> Brazil </label></li>
-            <li><label for="Japan" class="dropdown-item"><input type="radio"  name="Country" id="Japan"> Japan </label></li>
-            <li><label for="South Korea" class="dropdown-item"><input type="radio"  name="Country" id="South Korea"> South Korea</label></li>
-            <li><label for="Philippines" class="dropdown-item"><input type="radio"  name="Country" id="Philipines"> Philippines </label></li>
-            <li><label for="Indonesia" class="dropdown-item"><input type="radio"  name="Country" id="Indonesia"> Indonesia </label></li>
-        </ul>                
-     </div>
+                        <a href="http://" class="d-block text-decoration-none text-white fw-bold fs-8">
+                            <span class="d-block fs-10 text-white fw-normal">Hello, Sign in</span>
+                            Account & Lists
+
+                        </a> 
+                    </button>
+                    <ul class="dropdown-menu " aria-labelledby="triggerId3">
+                       <li class="dropdown-item">
+                        <div class=" d-flex flex-column  ">
+                            <button class="p-3 bg-warning text-dark">Sign in</button>
+                            <span class="fs-10 text-dark">New Customer? <a href="" target="_blank" class="text-danger text-decoration-none">Start Here</a></span>
+                        </div>
+                       </li> 
+                       <li class="dropdown-item">
+                        <div class="row ">
+                            <div class="col-6">
+                                <span class="fs-6 mb-2">Your Lists</span>
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Create a wishlist</a><li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Wish from any Website</a></li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Baby wishlist</a></li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Discover Your Style</a><li>
+                            </ul>
+                            <div class="col-6">
+                                <span class="fs-6 mt-2 mb-2">Your Account</span>
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Your Orders</a><li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Your Wishlist</a></li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Your Prime Account</a></li>
+                                    <li class="list-group-item fs-8"><a href="#" class="text-decoration-none text-dark">Your Recommendations</a><li>
+                            </div>
+                        </div>
+                       </li>
+                       
+                    </ul>
+            </div>
+        </div> 
+        <div class="nav-item ms-3 hover p-3">
+            <a href="#" class="text-decoration-none text-dark">
+                <span class="fs-6 text-white d-block">Returns</span>
+                <span class="fs-8 fw-bold text-white d-block">& Orders</span>
+            </a>
+        </div> 
+        <div class="nav-item ms-3 hover p-2">
+            <div>
+                <span class="d-block ms-4 text-warning ">0</span>
+                <div class="d-block">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbR1FFiwI-Lvc0wmHY1-66CVP1--ika465_pVY-I&s" alt="Cart-logo" height="40" width="50">
+                    <span class="text-white fw-bold fs-8">Cart</span>
+                </div>
+            </div>
+            
+        </div>  
 </nav>    
 
 
