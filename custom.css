@@ -31,7 +31,7 @@ display: block;
     float: left;
     left:3%;
     top:60%;
-    z-index: 10000;
+    z-index: 0  ;
     position: absolute;
 }
 .img-card{
