@@ -29,10 +29,11 @@ display: block;
 }
 #over-img-div{
     float: left;
-    left:2%;
+    left:2%;    
     top:60%;
     z-index: 0  ;
     position: absolute;
+  /*  <!--margin-left: 80px;--> */
 }
 .img-card{
 height: 130px;
