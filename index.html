@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-black position-fixed top-0" style=" height: 90px;z-index: 1000000000;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black position-fixed top-0 w-100" style=" height: 90px;z-index: 1000000000;">
     <a class="navbar-brand ms-3 p-1 hover " href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg" alt="AmazonLogo" height="60px" width="90px" class="mt-1" ><span class="fs-6">.in</span></a>
     <div class=" nav-item">
        <a href="http://" class="d-flex text-light hover text-decoration-none ">
@@ -124,24 +124,24 @@
                     </ul>
             </div>
         </div> 
-        <div class="nav-item ms-3 hover p-3 my-3">
+        <div class="nav-item ms-2 hover p-3 my-3">
             <a href="#" class="text-decoration-none text-dark">
                 <span class="fs-6 text-white d-block">Returns</span>
                 <span class="fs-8 fw-bold text-white d-block">& Orders</span>
             </a>
         </div> 
-        <div class="nav-item ms-3 hover p-2 my-3">
+        <div class="nav-item ms-2 hover p-2 my-3">
             <div>
                 <span class="d-block ms-4 text-warning ">0</span>
-                <div class="d-block">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbR1FFiwI-Lvc0wmHY1-66CVP1--ika465_pVY-I&s" alt="Cart-logo" height="40" width="50">
-                    <span class="text-white fw-bold fs-8">Cart</span>
+                <div class="d-flex justify-content-start">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbR1FFiwI-Lvc0wmHY1-66CVP1--ika465_pVY-I&s" alt="Cart-logo" height="40" width="50" class="d-inline-block">
+                    <span class="text-white fw-bold fs-8 d-inline-block mt-3">Cart</span>
                 </div>
             </div>
             
         </div>  
 </nav>    
-<div class="container-fluid bg-dark d-sm-none d-md-none d-lg-block" id="top" style="height: 53px;margin-top:6%;">
+<div class="bg-dark d-sm-none d-md-none d-lg-block" id="top" style="height: 53px;margin-top:6%;">
      <!-- Button to open the offcanvas sidebar -->
      <button class="float-start btn btn-dark rounded-0 fs-8 fw-bold hover mt-1" style="height: 40px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
         <i class="fa fa-bars" aria-hidden="true"></i> All
@@ -194,10 +194,10 @@
   </div>
 </div>
 
-<div id="carouselControls" class="carousel slide mx-1" data-bs-ride="carousel">
+<div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/GW/Unrec/Heros/under_1999_Tallhero_3000x1200._CB634376407_.jpg" height="400" alt="First slide">
+        <img class="d-block w-100" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/GW/Unrec/Heros/under_1999_Tallhero_3000x1200._CB634376407_.jpg" alt="First slide">
       </div>
       <div class="carousel-item ">
         <img class="d-block w-100" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Beauty/GW/Aug/ATF/GW-PC-Bunktera._CB629177346_.jpg" alt="Second slide">
@@ -227,8 +227,9 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="row text-center w-100" id="over-img-div" >
-    <div class="col-3 bg-light img-thumbnail me-2">
+  <div id="over-img-div" class="px-1">
+  <div class="row text-center w-100" style="column-gap:16px ;" >
+    <div class="col-3 bg-light img-thumbnail">
         <div class="bg-light ">
             <h5 class="fw-bold">Top picks for your home</h5>
             <div class="row p-1">
@@ -251,7 +252,7 @@
             <a href="#" class="text-decoration-none text-dark float-start">See more..</a>
         </div>
     </div>
-    <div class="col-3 bg-light img-thumbnail me-2">
+    <div class="col-3 bg-light img-thumbnail">
         <div class="bg-light">
             <h5 class="fw-bold">Upto 70% off | Clearance Store</h5>
             <div class="row">
@@ -266,7 +267,88 @@
         </div>
     </div>
     
-        <div class="col-3 bg-light img-thumbnail me-2">
+        <div class="col-3 bg-light img-thumbnail ">
+            <div class="bg-light ">
+                <h5 class="fw-bold">Upgrade your home | Amazon Brands & more</h5>
+                <div class="row p-1">
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/TV_1x._SY116_CB627443840_.jpg" alt="img1" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Smart LED TVs</span></a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_QC_Appliances_1X_V2_3._SY116_CB636581536_.jpg" alt="img2" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Appliances</span>
+                    </a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Furn_1x._SY116_CB627275939_.jpg" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Furniture</span>
+                    </a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Kitchen_1x._SY116_CB627276315_.jpg" alt="img4" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Kitchen Products</span>
+                    </a>
+                </div>
+                <a href="#" class="text-decoration-none text-dark float-start d-block">See more..</a>
+            </div>
+        
+    
+    </div>
+    <div class="col-2">
+        <div class="p-3 bg-light row mb-2">
+                <span class="fw-bold">Sign in for your Best Experience</span>
+                <a class="btn btn-warning p-2" href="#">Sign in</a>
+        </div>
+       <div class="row">
+            <a href="#" class="d-block">
+                <img src="https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg" alt="advertisement" class="img-fluid mt-5 d-block">
+            </a>
+            <a href="#" class="text-decoration-none fs-10 text-muted float-end">Sponsored</a>
+       </div> 
+    </div>
+    <div class="col-1"></div>
+  </div>
+</div>
+<div style="margin-left :30px; margin-top: 180px;">
+  <div class="row text-center w-100 mb-3" id="over-img-divm" style="column-gap:16px ;" >
+    <div class="col-3 bg-light img-thumbnail">
+        <div class="bg-light ">
+            <h5 class="fw-bold">Top picks for your home</h5>
+                <div class="row p-1">
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="img1" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Acs</span>
+                    </a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="img2" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Refrigerator</span>
+                    </a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="img3" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Microwaves</span>
+                    </a>
+                    <a href="#" class="col-6 text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="img4" class="d-block img-fluid img-card">
+                        <span class="d-block float-start fs-8">Washing Machines</span>
+                    </a>
+                </div>
+            <a href="#" class="text-decoration-none text-dark float-start">See more..</a>
+        </div>
+    </div>
+    <div class="col-3 bg-light img-thumbnail">
+        <div class="bg-light">
+            <h5 class="fw-bold">Upto 70% off | Clearance Store</h5>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#" class="text-decoration-none text-black">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg" alt="img5"  class="img-fluid" style="height:310px ;">
+                    </a>
+                </div>
+
+            </div>
+            <a href="#" class="text-decoration-none text-dark float-start">See more..</a>
+        </div>
+    </div>
+    
+        <div class="col-3 bg-light img-thumbnail">
             <div class="bg-light ">
                 <h5 class="fw-bold">Upgrade your home | Amazon Brands & more</h5>
                 <div class="row p-1">
@@ -303,84 +385,9 @@
        <a href="#" class="text-decoration-none fs-10 text-muted float-end">Sponsored</a>
        </div> 
     </div>
+    <div class="col-1"></div>
   </div>
-  <div class="row text-center w-100 mb-3" id="over-img-divm" style="margin-left :30px; margin-top: 180px;" >
-    <div class="col-3 bg-light img-thumbnail me-2">
-        <div class="bg-light ">
-            <h5 class="fw-bold">Top picks for your home</h5>
-            <div class="row p-1">
-                <a href="#" class="col-6 text-decoration-none text-black">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="img1" class="d-block img-fluid img-card">
-                    <span class="d-block float-start fs-8">Acs</span></a>
-                <a href="#" class="col-6 text-decoration-none text-black">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="img2" class="d-block img-fluid img-card">
-                    <span class="d-block float-start fs-8">Refrigerator</span>
-                </a>
-                <a href="#" class="col-6 text-decoration-none text-black">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="img3" class="d-block img-fluid img-card">
-                    <span class="d-block float-start fs-8">Microwaves</span>
-                </a>
-                <a href="#" class="col-6 text-decoration-none text-black">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="img4" class="d-block img-fluid img-card">
-                    <span class="d-block float-start fs-8">Washing Machines</span>
-                </a>
-            </div>
-            <a href="#" class="text-decoration-none text-dark float-start">See more..</a>
-        </div>
-    </div>
-    <div class="col-3 bg-light img-thumbnail me-2">
-        <div class="bg-light">
-            <h5 class="fw-bold">Upto 70% off | Clearance Store</h5>
-            <div class="row">
-                <div class="col-12">
-                    <a href="#" class="text-decoration-none text-black">
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg" alt="img5"  class="img-fluid" style="height:310px ;">
-                    </a>
-                </div>
-
-            </div>
-            <a href="#" class="text-decoration-none text-dark float-start">See more..</a>
-        </div>
-    </div>
-    
-        <div class="col-3 bg-light img-thumbnail me-2">
-            <div class="bg-light ">
-                <h5 class="fw-bold">Upgrade your home | Amazon Brands & more</h5>
-                <div class="row p-1">
-                    <a href="#" class="col-6 text-decoration-none text-black">
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/TV_1x._SY116_CB627443840_.jpg" alt="img1" class="d-block img-fluid img-card">
-                        <span class="d-block float-start fs-8">Smart LED TVs</span></a>
-                    <a href="#" class="col-6 text-decoration-none text-black">
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/PrivateBrands/GW20/GW_Desktop_QC_Appliances_1X_V2_3._SY116_CB636581536_.jpg" alt="img2" class="d-block img-fluid img-card">
-                        <span class="d-block float-start fs-8">Appliances</span>
-                    </a>
-                    <a href="#" class="col-6 text-decoration-none text-black">
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Furn_1x._SY116_CB627275939_.jpg" class="d-block img-fluid img-card">
-                        <span class="d-block float-start fs-8">Furniture</span>
-                    </a>
-                    <a href="#" class="col-6 text-decoration-none text-black">
-                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW/Kitchen_1x._SY116_CB627276315_.jpg" alt="img4" class="d-block img-fluid img-card">
-                        <span class="d-block float-start fs-8">Kitchen Products</span>
-                    </a>
-                </div>
-                <a href="#" class="text-decoration-none text-dark float-start d-block">See more..</a>
-            </div>
-        
-    
-    </div>
-    <div class="col-2">
-<div class="p-3 bg-light row mb-2">
-    <span class="fw-bold">Sign in for your Best Experience</span>
-        <a class="btn btn-warning p-2" href="#">Sign in</a>
 </div>
-       <div class="row">
-       <a href="#" class="d-block">
-        <img src="https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg" alt="advertisement" class="img-fluid mt-5 d-block">
-       </a>
-       <a href="#" class="text-decoration-none fs-10 text-muted float-end">Sponsored</a>
-       </div> 
-    </div>
-  </div>
   <a href="#top" class="bg-dark p-3 text-center w-100 text-decoration-none text-white d-block"> Back to top </a>
 <footer class="px-5 py-2 bg-black">
     
